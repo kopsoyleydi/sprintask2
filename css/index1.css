@@ -1,0 +1,184 @@
+body {
+    background-color: lightgrey;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shap {
+    display: flex;
+    height: 50px;
+    background-color: rgb(0, 153, 255);
+}
+
+.shap h2 {
+    margin-left: 15%;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shap input {
+    height: 15px;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10%;
+    background-color: rgba(187, 187, 199, 0.758);
+}
+.listmain {
+    width: 10%;
+}
+
+.listmain .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.list a {
+    width: max-content;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    color: white;
+}
+.panel{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.panel .number-friend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+}
+.one{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.two{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.border{
+    height: 1px;
+    width: 100%;
+
+}
+.panel-friend{
+    width: 20%;
+    border-radius: 10px;
+}
+.friends{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+.friend1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.friend1 img{
+    border-radius: 70px;
+}
+.friend2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.friend2 img {
+    border-radius: 70px;
+}
+.friend3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.friend3 img {
+    border-radius: 70px;
+}
+.friend4 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.friend4 img {
+    border-radius: 70px;
+}
+
+.friend5 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.friend5 img {
+    border-radius: 70px;
+}
+.friend6 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.friend6 img {
+    border-radius: 70px;
+}
+.friend7 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.name{
+    padding-left: 35px;   
+}
+.friend7 img {
+    border-radius: 70px;
+}
+.panel-friend{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.list-type{
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.maybe-friend{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.may-free{
+    display: flex;
+    padding: 5px;
+}
+.may-free img{
+    border-radius: 60px;
+}
+.text{
+    padding: 5px;
+}
