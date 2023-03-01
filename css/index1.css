@@ -1,11 +1,10 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(211, 211, 211);
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .shap {
@@ -30,6 +29,7 @@ body {
 }
 .listmain {
     width: 10%;
+    margin-left: 200px;
 }
 
 .listmain .list {
@@ -55,6 +55,7 @@ body {
     width: 40%;
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 .panel .number-friend{
     display: flex;
@@ -89,76 +90,37 @@ body {
 .friends{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    border-radius: 10px;
+}
+.friend{
+    display: flex;
+    margin-top: 2px;
+    border-bottom: 1px solid black;
     background-color: white;
     border-radius: 10px;
 }
-.friend1{
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}
-.friend1 img{
-    border-radius: 70px;
-}
-.friend2 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}
-
-.friend2 img {
-    border-radius: 70px;
-}
-.friend3 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}
-
-.friend3 img {
-    border-radius: 70px;
-}
-.friend4 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}
-
-.friend4 img {
-    border-radius: 70px;
-}
-
-.friend5 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}
-.friend5 img {
-    border-radius: 70px;
-}
-.friend6 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-}
-.friend6 img {
-    border-radius: 70px;
-}
-.friend7 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
+.friend :hover{
+    background-color: lightgray;
 }
 .name{
-    padding-left: 35px;   
+    margin-left: 10px;
 }
-.friend7 img {
-    border-radius: 70px;
+.name h5{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.name h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name a{
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .panel-friend{
     margin-top: 20px;
     border-radius: 10px;
+    margin-left: 30px;
 }
 .list-type{
     height: fit-content;
@@ -175,6 +137,7 @@ body {
 .may-free{
     display: flex;
     padding: 5px;
+    border-bottom: 1px solid black;
 }
 .may-free img{
     border-radius: 60px;
