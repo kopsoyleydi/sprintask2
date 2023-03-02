@@ -1,10 +1,30 @@
 body{
-    background-color: lightgrey;
+    background-color: rgb(234, 234, 234);
+    margin: 0;
+}
+@font-face {
+    font-family: 'VK-Meduim';
+    src: url(/font/VKSansDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'VK-DemiBold';
+    src: url(/font/VKSansDisplay-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'VK-Bold';
+    src: url(/font/VKSansDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'VK-Regular';
+    src: url(/font/VKSansDisplay-Regular.ttf);
 }
 .main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .shap{
     display: flex;
@@ -13,9 +33,9 @@ body{
 }
 .shap h2{
     margin-left: 15%;
-    margin-top: 10px;
+    margin-top: 15px;
     color:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'VK_Medium';
 }
 .shap input{
     height: 15px;
@@ -34,12 +54,14 @@ body{
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 30px;
+    
 }
 .list a{
     width:max-content;
     margin-top: 10px;
     text-decoration: none;
     color: black;
+    font-family: 'VK-Regular';
 }
 .list a:hover{
     color: white;
@@ -50,6 +72,7 @@ body{
     width: 250px;
     margin-top: 2%;
     height: fit-content;
+    font-family: 'VK-Regular';
 }
 .profile .image{
     padding-top: 5%;
@@ -71,6 +94,7 @@ body{
     margin-top: 30px;
     border-radius: 2%;
     padding: 15px;
+    font-family: 'VK-Regular';
 }
 .text1{
     background-color: white;
@@ -117,17 +141,25 @@ body{
     flex-direction: column;
 }
 .size{
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+}
+.boorder{
+    border-bottom:ridge 1px black;
+    width: 100%;
 }
 .paramaters-name{
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 104%;
 }
 .space{
-    width: 10%;
+    width: 5%;
 }
 .photo{
     width: 96%;
@@ -138,8 +170,17 @@ body{
     padding: 10px;
     border-radius: 2%;
 }
+.name-photo{
+    margin-left: 20px;
+    display: flex;
+    align-items:center;
+    align-self: start;
+}
+.name-photo h6{
+    margin-left: 10px;
+}
 .photos{
-    width: 80%;
+    width: 79%;
     display: flex;
     justify-content: space-between;
     background-color: white;
